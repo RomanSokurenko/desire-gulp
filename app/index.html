@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap"
       rel="stylesheet"
     />
 
@@ -15,39 +15,40 @@
   </head>
 
   <body>
-    <header class="header">
-      <div class="container">
-        <div class="header__inner">
-          <nav class="menu">
-            <ul class="menu__list">
-              <li class="menu__list-item">
-                <a href="#" class="menu__link-list">About</a>
-              </li>
-              <li class="menu__list-item">
-                <a href="#" class="menu__link-list">Gallery</a>
-              </li>
-            </ul>
-          </nav>
-          <a class="logo" href="#">
-            <img src="images/logo.png" alt="logo" />
-          </a>
-          <nav class="menu">
-            <ul class="menu__list">
-              <li class="menu__list-item">
-                <a href="#" class="menu__link-list">Blog</a>
-              </li>
-              <li class="menu__list-item">
-                <a href="#" class="menu__link-list">Contact</a>
-              </li>
-            </ul>
-          </nav>
-          <button class="header__btn">
-            <img src="images/icon_menu.svg" alt="icon_menu" />
-          </button>
-        </div>
-      </div>
-    </header>
     <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__list-item">
+                  <a href="#" class="menu__link-list">About</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#" class="menu__link-list">Gallery</a>
+                </li>
+              </ul>
+            </nav>
+            <a class="logo" href="#">
+              <img src="images/logo.png" alt="logo" />
+            </a>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__list-item">
+                  <a href="#" class="menu__link-list">Blog</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#" class="menu__link-list">Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <button class="header__btn">
+              <img src="images/icon_menu.svg" alt="icon_menu" />
+            </button>
+          </div>
+        </div>
+      </header>
+
       <main class="main"></main>
       <footer class="footer">
         <div class="footer__content">
@@ -112,7 +113,9 @@
           </div>
         </div>
         <div class="footer__copyright">
-          674 Gonzales Drive. Washington, PA 15301
+          <div class="container">
+            <p>674 Gonzales Drive. Washington, PA 15301</p>
+          </div>
         </div>
       </footer>
     </div>
